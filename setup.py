@@ -64,7 +64,7 @@ if USE_CYTHON:
 
 packages = ['neal']
 
-install_requires = ['dimod>=0.9.2',
+install_requires = ['dimod>=0.7.7,<0.10.0',
                     'numpy>=1.16.0,<2.0.0',
                     ]
 
